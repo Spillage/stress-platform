@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: stress-platform-agent
+
+server:
+  port: 8081
+wrk: /Users/xielu/visual-wrk/visual-wrk
+wrkDirectory: /Users/xielu/visual-wrk
+report: /Users/xielu/visual-wrk/report/log.html
+script: /Users/xielu/visual-wrk/scripts/
+serverUrl: http://localhost:8080
